@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -12,6 +12,7 @@ body {
   text-align: left;
   padding: 0;
   margin: 0;
+  background-color: #f2f2f2;
 }
 
 header {
@@ -27,6 +28,8 @@ nav {
 img {
   width: 100px;
   margin: 1em;
+  display: block;
+  padding: 0;
 }
 
 h1 {
@@ -36,6 +39,8 @@ h1 {
 
 .pic {
   text-align: center;
+  padding: 0;
+  margin-left: 5em;
 }
 
 .btn {
@@ -44,10 +49,11 @@ h1 {
   width: 25%;
   border: 1px solid #000;
   padding: 0.5em;
+  background-color: #e2e2e2;
 }
 
 .btn:hover {
-  background-color: 
+  background-color: #e2e2e2;
 }
 
 .btn-light {
@@ -56,6 +62,7 @@ h1 {
   width: 25%;
   border: 1px solid #000;
   padding: 0.5em;
+  background-color: #ccc;
 }
 
 .btn-grey {
@@ -64,6 +71,7 @@ h1 {
   width: 25%;
   border: 1px solid #000;
   padding: 0.5em;
+  background-color: #aaa;
 }
 
 .btn-dark {
@@ -72,16 +80,21 @@ h1 {
   width: 25%;
   border: 1px solid #000;
   padding: 0.5em;
+  background-color: #999;
 }
 
 .btn-small {
   display: inline-block;
-  background-color: grey;
+  background-color: #333;
   text-decoration: none;
   color: white;
   padding: 0.5em;
   margin: 1em 0 4em 0;
   border-radius: 8px;
+}
+
+.btn-small:hover {
+  background-color: black;
 }
 
 p {
